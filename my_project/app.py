@@ -25,9 +25,9 @@ def index():
     return render_template('index.html', users=users)
 
 def send_email(first_name, last_name):
-    sender_email = os.getenv("EMAIL_USER")
+    sender_email = os.getenv("amirali.abd.0088@gmail.com")
     receiver_email = "amirali.abd.0088@gmail.com"
-    password = os.getenv("EMAIL_PASS")
+    password = os.getenv("hutw xqvc vuwk atk")
 
     message = MIMEText(f"name: {first_name}\nfamily: {last_name}")
     message['Subject'] = 'اطلاعات جدید کاربر'
