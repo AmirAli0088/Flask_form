@@ -17,7 +17,7 @@ def init_db():
                         first_name TEXT NOT NULL,
                         last_name TEXT NOT NULL,
                         phone_number INTEGER NOT NULL)
-                   ''')
+                   ''');
     conn.commit()
     conn.close()
 
