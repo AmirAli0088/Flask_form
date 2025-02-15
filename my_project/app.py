@@ -10,6 +10,7 @@ DB_PATH = "/tmp/database.db"
 
 
 def init_db():
+    conn = sqlite3.connect(DB_PATH, check_same_thread=False)
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute('''CREATE TABLE IF NOT EXISTS users (
