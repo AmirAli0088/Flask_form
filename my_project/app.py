@@ -32,7 +32,7 @@ def index():
 def send_email(first_name, last_name, email_address, phone_number):
     sender_email = os.getenv("amirali.abd.0088@gmail.com")
     receiver_email = "amirali.abd.0088@gmail.com"
-    password = os.getenv("hutw xqvc vuwk atk")
+    password = os.getenv("hutw xqvc vuwk atkr")
 
     message = MIMEText(f"name: {first_name}\nfamily: {last_name}\nemail: {email_address}\nphone: {phone_number}")
     message['Subject'] = 'اطلاعات جدید کاربر'
